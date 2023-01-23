@@ -1,12 +1,11 @@
-import BotCollection from "./component/BotCollection";
+import React from "react"
+import BotsPage from "./containers/BotsPage"
+import "./App.css"
 
-function App() {
-    return(
-        <><div className="">
-            <h1><center>BOT BATTLR.</center></h1>
-
-        </div><BotCollection /></>
-    )
+export default function App() {
+  return (
+    <div className="App">
+      <BotsPage />
+    </div>
+  )
 }
-
-export default App;
