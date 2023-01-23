@@ -64,7 +64,7 @@ const BotCard = props => {
                 className="ui mini red button"
                 onClick={handleDischarge}
               >
-                x
+                Red Hot
               </button>
             </div>
           </span>
